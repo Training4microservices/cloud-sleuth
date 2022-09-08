@@ -40,6 +40,6 @@ class Microservice4Controller {
 	@GetMapping(value = "/microservice4")
 	public String method4() {
 		LOG.info("Inside method4");
-		return "Hello World JavaInUse";
+		return "Hello Everone, Welcome to the Microservices Training";
 	}
 }
